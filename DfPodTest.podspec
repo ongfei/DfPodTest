@@ -7,7 +7,7 @@ s.license      = 'MIT'
 s.author       = { "ongfei" => "ong_fei@163.com" }
 s.source       = { :git => "https://github.com/ongfei/DfPodTest.git", :tag => s.version.to_s }
 s.platform      = :ios, '7.0'
-s.source_files = 'ToolTest/**'
+s.source_files = 'ToolTest/**/*'
 s.requires_arc = true
 s.dependency 'FMDB', '~> 2.5'
 end
